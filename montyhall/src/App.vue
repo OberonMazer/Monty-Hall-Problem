@@ -1,16 +1,16 @@
 <template>
     <div id="app">
       <h1>Problema de Monty Hall</h1>
-      <GiftTodo />
+      <DoorTodo number="1" :hasGift="false"/>
     </div>
   </template>
   
   <script>
-  import GiftTodo from './components/GiftTodo.vue'
+  import DoorTodo from './components/DoorTodo.vue'
 
   export default {
   name: 'App',
-  components: { GiftTodo }
+  components: { DoorTodo }
   }
   </script>
   
